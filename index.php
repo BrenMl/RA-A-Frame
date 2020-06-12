@@ -93,8 +93,8 @@
                 hide-in-ar-mode></a-entity>
       
       <a-entity id="dino" position="-1 0 -3" scale="0.5 0.5 0.5">
-        <a-entity position="0 0.5 0" rotation="0 55 0"
-                  gltf-model="./dragonite/scene.gltf"
+        <a-entity position="0 2.15 0" rotation="0 55 0"
+                  gltf-model="#spinosaurus"
                   animation-mixer
                   shadow="cast: true; receive: false"></a-entity>
       </a-entity>  
@@ -119,7 +119,7 @@
                visible="false"></a-plane>
     </a-scene>
 
-    <div id="text">
+    <!-- <div id="text">
       <h1>A-Frame Spinosaurus for VR/AR</h1>
     
       <p>
@@ -140,7 +140,7 @@
       <p>
         Powered by <a href="https://aframe.io/blog/aframe-v1.0.0/">A-Frame v1.0.0</a>.
       </p>
-    </div>
+    </div> -->
     <script>
       function setSize(scale) {
         document.getElementById('dino').setAttribute('scale', {x: scale, y: scale, z: scale});
