@@ -94,7 +94,7 @@
       
       <a-entity id="dino" position="-1 0 -3" scale="0.5 0.5 0.5">
         <a-entity position="0 2.15 0" rotation="0 55 0"
-                  gltf-model="#spinosaurus"
+                  gltf-model="./magnemite/scene.gltf"
                   animation-mixer
                   shadow="cast: true; receive: false"></a-entity>
       </a-entity>  
